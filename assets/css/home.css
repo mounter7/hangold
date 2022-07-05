@@ -1,0 +1,50 @@
+/* buttons */
+.btn-00{
+    border-radius: 20px;
+    background-color: var(--c02);
+    border: 2px solid var(--c02);
+}
+.btn-01{
+    border-radius: 20px;
+}
+.btn-00:hover{
+    background-color: var(--c01);
+    color: var(--c00);
+    transition: var(--transition00);
+}
+.btn-01:hover{
+    background-color: var(--c00);
+    color: var(--c01);
+    transition: var(--transition00);
+}
+
+/* underline h2  */
+h2::after{
+    content: '';
+    width: 10rem;
+    height: 3px;
+    background-color: var(--underline-h2-color);
+    display: block;
+    margin-bottom: 2rem;
+}
+
+/* table */
+table tr:nth-child(4){
+    text-align: center;
+}
+
+/* section */
+#section-00 img{
+    width: 600px;
+}
+
+
+/* 900px */
+@media screen and (max-width:900px) {
+    
+/* section */
+#section-00 img{
+    width: 100%;
+}
+
+}

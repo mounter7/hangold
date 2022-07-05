@@ -1,0 +1,19 @@
+/* nav links */
+.nav-links{
+    transition: var(--transition00);
+    width: 90%;
+}
+.nav-links.active{
+    box-shadow: 0 0 100px 100vh rgba(0,0,0,0.4);
+}
+.nav-links a{
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+
+/* scroll effects */
+header.active{
+    box-shadow: var(--shadow00);
+    padding: 1rem 0;
+}
